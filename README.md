@@ -1,8 +1,6 @@
 # Using Custom API Action - Add Okta Admin Role
 
 ## Overview
-File download: 
-
 The workflow allows automated management of help desk role within Okta. The flow leverages Okta's Custom API action which can be used to invoke any of Okta's published APIs. This sample flow uses a custom 'Role' attribute as part of Okta user profile. If user is created with a 'Support' role, user is added to HELP_DESK_ADMIN role. 
 
 ## Prerequisites
