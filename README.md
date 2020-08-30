@@ -29,4 +29,4 @@ This flow expects that a user is created in Okta with their ‘role’ attribute
 
 
 ## Limitations & Known Issues
-If extending this flow to work with other Okta events, please note that only a subset of System Log events are available in the Okta connector.
+Please note that all Okta cards, including Custom API Action, will be subjected to org level rate limits per API endpoint.
