@@ -21,10 +21,12 @@ Before you get started, here are the things you’ll need:
 
 
 ## Testing this Flow
-* Create a user in your Okta tenant using Okta 'Create User' API with the profile attribute "role" set as "Support" in the request body.
-* Open your flow and view Flow History. You should see a successful flow run.
+This flow expects that a user is created in Okta with their ‘role’ attribute populated. In order to simulate this, we will use a test workflow ‘Test Flow: Create Okta User’ that leverages Okta’s ‘Create User’ card to create a test user.
+* Open the flow ‘Test Flow: Create Okta User’. In the ‘Create User’ card, set the values for first name, last name, username and primary email as desired. Set the role as ‘Support’. Click the ‘Test’ button to run the flow.
+* Open ‘Add User to Admin Role’ flow and view Flow History. You should see a successful flow run.
 * Go to Okta admin console and review the list of administrators under Security -> Administrators tab.
-* You should see the newly created user listed with 'Help Desk Admin' role.
+* You should see the newly created user listed with the 'Help Desk Admin' role.
+
 
 ## Limitations & Known Issues
 If extending this flow to work with other Okta events, please note that only a subset of System Log events are available in the Okta connector.
