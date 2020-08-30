@@ -3,7 +3,7 @@
 ## Overview
 Sometimes a connector doesn’t meet your needs because of a missing action. With the Custom API Action method, you can get around this limitation by making a generic HTTP request to any of the connectors that Workflows has available. 
 
-This template helps demonstrate how to use the Custom API action card by allowing for the automated management of a help desk role within Okta. The flow leverages Okta's Custom API action which can be used to invoke any of Okta's published APIs. This sample flow uses a custom 'Role' attribute as part of Okta user profile. If the user is created with a 'Support' role, the user is added to the HELP_DESK_ADMIN role.
+This template helps demonstrate how to use the Custom API action card by allowing for the automated management of a help desk role within Okta. The flow leverages Okta's Custom API action which can be used to invoke any of Okta's published APIs. This sample flow uses a custom 'Role' attribute as part of Okta user profile. If the user is created with a 'Support' role attribute, the user is added to the HELP_DESK_ADMIN role in Okta.
 
 
 ## Prerequisites
